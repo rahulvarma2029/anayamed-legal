@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Deletion Instructions — AnayaMED</title>
+<style>
+  :root{
+    --ink:#16202b; --muted:#5a6875; --rule:#e2e8ee; --bg:#ffffff;
+    --accent:#0f766e; --warn-bg:#fff8e6; --warn-rule:#e0b44a; --warn-ink:#6b4e08;
+    --step-bg:#f4f7f9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e6edf3; --muted:#9aa7b4; --rule:#2b3742; --bg:#12181e;
+           --accent:#5eead4; --warn-bg:#2a2109; --warn-rule:#8a6b1c; --warn-ink:#f0d597;
+           --step-bg:#1a222b; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 22px 80px}
+  h1{font-size:1.9rem;line-height:1.25;margin:0 0 6px}
+  h2{font-size:1.15rem;margin:38px 0 10px;padding-top:18px;border-top:1px solid var(--rule)}
+  .sub{color:var(--muted);margin:0 0 26px}
+  .status{background:var(--warn-bg);border:1px solid var(--warn-rule);color:var(--warn-ink);
+          border-radius:8px;padding:14px 16px;margin:0 0 30px;font-size:.94rem}
+  .status strong{display:block;margin-bottom:4px}
+  ol.steps{list-style:none;counter-reset:s;padding:0;margin:16px 0}
+  ol.steps li{counter-increment:s;background:var(--step-bg);border:1px solid var(--rule);
+              border-radius:8px;padding:14px 16px 14px 52px;margin:0 0 10px;position:relative}
+  ol.steps li::before{content:counter(s);position:absolute;left:16px;top:14px;
+              width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;
+              display:grid;place-items:center;font-size:.85rem;font-weight:700}
+  @media (prefers-color-scheme: dark){ ol.steps li::before{color:#08211e} }
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.94rem}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{color:var(--muted);font-weight:600}
+  code{background:rgba(127,127,127,.14);padding:1px 5px;border-radius:4px;font-size:.9em}
+  .todo{color:#b45309;font-weight:600}
+  @media (prefers-color-scheme: dark){ .todo{color:#fbbf24} }
+  a{color:var(--accent)}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--rule);
+         color:var(--muted);font-size:.88rem}
+  .scroll{overflow-x:auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Data Deletion Instructions</h1>
+<p class="sub">AnayaMed Healthtech Private Limited</p>
+
+<div class="status">
+  <strong>Interim version 0.1 — not the final document</strong>
+  Published to satisfy the disclosure requirement while the full policy is prepared and reviewed
+  by legal counsel. The process described here is what we will follow, and will be replaced by a
+  reviewed version. This version has not been reviewed by a qualified legal professional.
+</div>
+
+<p><strong>Effective date:</strong> 8 September 2026<br>
+<strong>Next review:</strong> on or before 8 December 2026</p>
+
+<h2>Your right to erasure</h2>
+<p>Under India's Digital Personal Data Protection Act, 2023, you may ask us to delete the
+personal data we hold about you. This page explains how to ask, what happens, and the narrow
+set of records we are legally required to keep.</p>
+
+<h2>How to request deletion</h2>
+<ol class="steps">
+  <li><strong>Email <a href="mailto:privacy@anayamed.com">privacy@anayamed.com</a></strong> from
+      the email address registered on your AnayaMED account, with the subject line
+      <code>Data Deletion Request</code>.</li>
+  <li><strong>Tell us which account.</strong> Include the mobile number registered with AnayaMED.
+      Please do not send us your password, an OTP, or any clinical information.</li>
+  <li><strong>Verify it is you.</strong> We will send a one-time passcode to the registered mobile
+      number or email. This step protects you — without it, anyone who knew your number could
+      erase your medical communications.</li>
+  <li><strong>We confirm.</strong> You will receive written confirmation of what was deleted and
+      what was retained, with the reason for any retention.</li>
+</ol>
+<p>If you cannot access your registered email or number, contact us anyway and we will agree an
+alternative way to verify your identity.</p>
+
+<h2>How long it takes</h2>
+<div class="scroll">
+<table>
+  <tr><th>Stage</th><th>Timing</th></tr>
+  <tr><td>We acknowledge your request</td><td>Within 3 working days</td></tr>
+  <tr><td>Identity verified and deletion carried out</td><td>Within 30 days of verification</td></tr>
+  <tr><td>Removal from backups</td><td>Within a further 90 days, as backups rotate</td></tr>
+</table>
+</div>
+<p>We will tell you if a request will take longer, and why.</p>
+
+<h2>What gets deleted</h2>
+<ul>
+  <li>Your mobile number and email address</li>
+  <li>Your name and preferred name</li>
+  <li>Your language and notification preferences</li>
+  <li>Your consent records</li>
+  <li>Any live one-time passcodes and cached data (these expire within minutes in any case)</li>
+  <li>The content of notifications we sent you</li>
+</ul>
+<p>Once deleted, we can no longer contact you through AnayaMED, and your account will no longer
+function.</p>
+
+<h2>What we must keep, and why</h2>
+<p>We cannot delete everything. The DPDP Act permits a Data Fiduciary to retain personal data
+where another law requires it. In our case:</p>
+<div class="scroll">
+<table>
+  <tr><th>Retained</th><th>Period</th><th>Why</th></tr>
+  <tr><td>A record that a notification was sent — the type of message, the channel, the date, and whether it was delivered</td><td>7 years from the date sent</td><td>Medical-record retention obligations. This is the evidence that you were told about an appointment, a result or a prescription. It does not contain the message content.</td></tr>
+  <tr><td>Sign-in audit records</td><td>90 days</td><td>Investigating account-takeover attempts. Your mobile number appears in these only as an irreversible SHA-256 hash, never in readable form.</td></tr>
+  <tr><td>Clinical records created during a consultation</td><td>As required by medical record-keeping law</td><td>Held separately from the communications data described here, and governed by their own retention rules.</td></tr>
+</table>
+</div>
+<p>Retained records are kept only for these purposes. They are not used to contact you, and not
+used for any commercial purpose.</p>
+
+<h2>Deleting data held by WhatsApp</h2>
+<p>Messages we sent you over WhatsApp are also present on your own device and in Meta's systems.
+Deleting your AnayaMED data does not remove them from WhatsApp. To remove those, delete the
+conversation in the WhatsApp app, and see
+<a href="https://faq.whatsapp.com/" rel="noopener">WhatsApp's own help pages</a> for their data
+practices.</p>
+
+<h2>A narrower option: stop the messages, keep the account</h2>
+<p>If you want the messages to stop but do not want your account erased, you do not need a
+deletion request. In the AnayaMED app, open <strong>Settings → Notifications</strong> and switch
+off any category. Sign-in passcodes and safety-critical alerts continue, because they are how we
+verify it is you and how we reach you in an emergency.</p>
+
+<h2>If you are not satisfied</h2>
+<p>Contact our Grievance Officer. If we do not resolve your complaint, you may escalate to the
+<strong>Data Protection Board of India</strong>.</p>
+<p class="todo">TO BE COMPLETED BEFORE PUBLICATION: named Grievance Officer, designation and
+contact details. The <code>privacy@anayamed.com</code> mailbox must exist and be monitored before
+this page goes live — the DPDP Act requires a reachable grievance channel, and Meta may test the
+address.</p>
+
+<footer>
+  AnayaMed Healthtech Private Limited · Interim version 0.1 · Effective 8 September 2026 ·
+  <a href="/privacy">Privacy Policy</a>
+</footer>
+
+</div>
+</body>
+</html>
